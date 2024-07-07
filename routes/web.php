@@ -19,6 +19,10 @@ SimpleRouter::group(['exceptionHandler' => \Demo\Handlers\CustomExceptionHandler
 
     SimpleRouter::group(['prefix' => '/api', 'middleware' => \Demo\Middlewares\ApiVerification::class], function () {
         SimpleRouter::resource('/demo', 'ApiController');
+
+		// Check the x-rate-limit-limit headers to see the parameters
+		SimpleRouter::get('/throttle', 'ApiController@throttle')
+			->addMiddleware(\Demo\Middlewares\ThrottleMiddleware::class.',4,80');
 	});
 
     // CALLBACK EXAMPLES

@@ -4,33 +4,33 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a5a0170a47aa2371ad6ac7e1665181a",
+    "content-hash": "bcbdd18192b7491d8251488f614fdb0e",
     "packages": [
         {
-            "name": "pecee/simple-router",
-            "version": "4.3.6.0",
+            "name": "michaelthedev/simple-router",
+            "version": "v0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/skipperbent/simple-php-router.git",
-                "reference": "e990b95c50a4d0520e1f1d5835133e2c7fdaa5cf"
+                "url": "https://github.com/michaelthedev/simple-php-router.git",
+                "reference": "c09f1c7000a0124353d5c72457092867e147f9f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skipperbent/simple-php-router/zipball/e990b95c50a4d0520e1f1d5835133e2c7fdaa5cf",
-                "reference": "e990b95c50a4d0520e1f1d5835133e2c7fdaa5cf",
+                "url": "https://api.github.com/repos/michaelthedev/simple-php-router/zipball/c09f1c7000a0124353d5c72457092867e147f9f5",
+                "reference": "c09f1c7000a0124353d5c72457092867e147f9f5",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=7.1"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "mockery/mockery": "^1",
-                "phpstan/phpstan": "^0",
-                "phpstan/phpstan-deprecation-rules": "^0",
-                "phpstan/phpstan-phpunit": "^0",
-                "phpstan/phpstan-strict-rules": "^0",
-                "phpunit/phpunit": "^7"
+                "phpstan/phpstan": "^1",
+                "phpstan/phpstan-deprecation-rules": "^1",
+                "phpstan/phpstan-phpunit": "^1",
+                "phpstan/phpstan-strict-rules": "^1",
+                "phpunit/phpunit": "^8"
             },
             "type": "library",
             "autoload": {
@@ -43,6 +43,10 @@
                 "MIT"
             ],
             "authors": [
+                {
+                    "name": "Michael Arawole",
+                    "email": "michael@logad.net"
+                },
                 {
                     "name": "Simon Sessingø",
                     "email": "simon.sessingoe@gmail.com"
@@ -64,10 +68,9 @@
                 "url-handling"
             ],
             "support": {
-                "issues": "https://github.com/skipperbent/simple-php-router/issues",
                 "source": "https://github.com/skipperbent/simple-php-router/issues"
             },
-            "time": "2021-06-09T07:19:14+00:00"
+            "time": "2024-06-26T09:06:33+00:00"
         }
     ],
     "packages-dev": [],
@@ -77,8 +80,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1"
+        "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.3.0"
 }

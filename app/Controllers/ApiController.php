@@ -65,4 +65,11 @@ class ApiController implements IResourceController
             'method' => sprintf('destroy: %s', $id),
         ]);
     }
+
+	public function throttle(): void
+	{
+		response()->json([
+			'message' => 'All clear'
+		]);
+	}
 }

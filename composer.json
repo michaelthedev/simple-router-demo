@@ -1,5 +1,5 @@
 {
- 	"name": "pecee/simple-router-demo",
+ 	"name": "michaelthedev/simple-router-demo",
  	"description": "Simple router demo project",
  	"keywords": [
 		"simple-router",
@@ -9,11 +9,8 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"php": ">=7.1",
-		"pecee/simple-router": "^5.0"
-	},
-	"require-dev": {
-
+		"php": ">=8.1",
+ 	 	"michaelthedev/simple-router": "^0.1.0"
 	},
 	"config": {
 		"preferred-install": "dist"
